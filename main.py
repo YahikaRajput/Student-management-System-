@@ -58,7 +58,8 @@ while True:
     print("1. Add student")
     print("2. Display students")
     print("3. Search student")
-    print("4. Exit")
+    print("4. Delete student")
+    print("5. Exit")
 
     choice = input("Enter choice: ")
 
@@ -69,9 +70,8 @@ while True:
     elif choice == '3':
         search_students()
     elif choice == '4':
-        print("Exit..")
+        delete_student();
     elif choice == '5':
         print("Thank you for using the system!")
     else:
         print("Invalid choice, try again.\n")
-
